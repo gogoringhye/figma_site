@@ -5,33 +5,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shop_Categories</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- googlefont -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- slick -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
 </head>
 
 <body>
-    <div class="shopCategories">
-        <header>
-            <img src="images/menu_Icon_left.svg" alt="menu_icon" class="menu_icon_left">
-            <h2>Categories</h1>
-                <img src="images/menu_Icon_right.svg" alt="menu_icon_right" class="menu_icon_right">
-        </header>
-        <div class="shop_Categories">
-            <div><img src="images/caterory_slide_01.jpg" alt="slide01"></div>
-            <div><img src="images/caterory_slide_02.jpg" alt="slide02"></div>
-            <div><img src="images/caterory_slide_03.jpg" alt="caterory_slide_03"></div>
+    <header>
+        <img src="images/menu_Icon_left.svg" alt="menu_Icon_left" class="menu_Icon_left">
+        <h2>Shop_Categories</h2>
+        </a>
+        <img src="images/menu_Icon_right.svg" alt="menu_Icon_right" class="menu_Icon_right">
+    </header>
+
+    <div class="shop_slide">
+        <div>
+            <img src="images/caterory_slide_01.jpg" alt="images/caterory_slide_01">
+        </div>
+        <div>
+            <img src="images/caterory_slide_02.jpg" alt="images/caterory_slide_02">
+        </div>
+        <div>
+            <img src="images/caterory_slide_03.jpg" alt="images/caterory_slide_03">
+        </div>
+        <div>
+            <img src="images/caterory_slide_04.jpg" alt="images/caterory_slide_04">
         </div>
     </div>
 
+    <div class="designdraft">
+        <div class="photo_list clearfix">
+            <div class="ctgy">
+                <img src="images/category_product_01.jpg" alt="watch">
+                <h3>T-shirts</h3>
+                <h4>2.5k Styles</h4>
+            </div>
+            <div class="ctgy">
+                <img src="images/category_product_02.jpg" alt="shoes">
+                <h3>Shoes</h3>
+                <h4>1.5k Styles</h4>
+            </div>
+            <div class="ctgy">
+                <img src="images/category_product_03.jpg" alt="shirts">
+                <h3>T-shirts</h3>
+                <h4>2.5k Styles</h4>
+            </div>
+            <div class="ctgy">
+                <img src="images/category_product_04.jpg" alt="shirts">
+                <h3>T-shirts</h3>
+                <h4>2.5k Styles</h4>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
     <script>
-        $('.shop_Categories').slick({
+        $('.shop_slide').slick({
             arrows: false,
-            dots: true
+            dots: true,
         });
     </script>
+
 </body>
 
 </html>
