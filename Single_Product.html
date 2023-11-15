@@ -17,96 +17,94 @@
 </head>
 
 <body>
+    <div class="singleProduct">
 
-    <body>
-        <div class="singleProduct">
-
-            <header>
-                <img src="images/menu_Icon_left.svg" alt="menu_Icon_left" class="menu_Icon_left">
-                <h2>Single Product</h2>
-                <img src="images/menu_Icon_right.svg" alt="menu_Icon_right" class="menu_Icon_right">
-            </header>
-            <main>
-                <h2>Modern T-shirt for Women</h2>
-                <div class="rate">
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                    <i class="fas fa-star"></i>
-                </div>
+        <header>
+            <img src="images/menu_Icon_left.svg" alt="menu_Icon_left" class="menu_Icon_left">
+            <h2>Single Product</h2>
+            <img src="images/menu_Icon_right.svg" alt="menu_Icon_right" class="menu_Icon_right">
+        </header>
+        <main>
+            <h2>Modern T-shirt for Women</h2>
+            <div class="rate">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+            </div>
 
 
-                <div>
-                    <!-- Add Swiper HTML Layout -->
-                    <div class="single_product">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <img src="images/product_detail_01.jpg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="images/product_detail_02.jpg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="images/product_detail_01.jpg" alt="">
-                            </div>
-                            <div class="swiper-slide">
-                                <img src="images/product_detail_02.jpg" alt="">
-                            </div>
+            <div>
+                <!-- Add Swiper HTML Layout -->
+                <div class="single_product">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="images/product_detail_01.jpg" alt="">
                         </div>
-
-                        <div class="swiper-pagination"></div>
-
+                        <div class="swiper-slide">
+                            <img src="images/product_detail_02.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/product_detail_01.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="images/product_detail_02.jpg" alt="">
+                        </div>
                     </div>
+
+                    <div class="swiper-pagination"></div><!-- 점 -->
+
                 </div>
+            </div>
 
-                <div class="details_info">
-                    <h3>$21.99</h3>
-                    <p>Look stunning with this modern t-shirt. Its comfortable and attractive.</p>
-                    <form action="#">
-                        <label for="color">colors</label>
-                        <select name="color" id="color">
-                            <option value="">colors</option>
-                            <option value="blue">blue</option>
-                            <option value="red">red</option>
-                            <option value="silver">silver</option>
-                        </select>
+            <div class="details_info">
+                <h3>$21.99</h3>
+                <p>Look stunning with this modern t-shirt. Its comfortable and attractive.</p>
+                <form action="#">
+                    <label for="color">colors</label>
+                    <select name="color" id="color">
+                        <option value="">colors</option>
+                        <option value="blue">blue</option>
+                        <option value="red">red</option>
+                        <option value="silver">silver</option>
+                    </select>
 
-                        <label for="size">size</label>
-                        <select name="size" id="size">
-                            <option value="">size</option>
-                            <option value="XL">XL</option>
-                            <option value="L">L</option>
-                            <option value="M">M</option>
-                            <option value="S">S</option>
-                            <option value="XS">XS</option>
-                        </select>
-                        <input type="submit" value="Add to Cart" class="btn">
-                    </form>
-                </div>
-            </main>
-        </div>
+                    <label for="size">size</label>
+                    <select name="size" id="size">
+                        <option value="">size</option>
+                        <option value="XL">XL</option>
+                        <option value="L">L</option>
+                        <option value="M">M</option>
+                        <option value="S">S</option>
+                        <option value="XS">XS</option>
+                    </select>
+                    <input type="submit" value="Add to Cart" class="btn">
+                </form>
+            </div>
+        </main>
+    </div>
 
-        <!-- swiper, Use Swiper from CDN, script -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- swiper, Use Swiper from CDN, script -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-        <script>
-            const swiper = new Swiper('.single_product', {
-                loop: true,
-                /* Resources -> Demos-> Slides per view auto-> Core script */
-                slidesPerView: 1.2,
-                spaceBetween: 25,
+    <script>
+        const swiper = new Swiper('.single_product', {
+            loop: true,
+            /* Resources -> Demos-> Slides per view auto-> Core script */
+            slidesPerView: 1.2,
+            spaceBetween: 25,
 
-                // If we need pagination
-                pagination: {
-                    el: '.swiper-pagination',
-                    clickable: true
-                },
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            },
 
 
-            });
-        </script> <!-- swiper, Initialize Swiper -->
+        });
+    </script> <!-- swiper, Initialize Swiper -->
 
-    </body>
+</body>
 
 </html>
