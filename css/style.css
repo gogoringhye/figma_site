@@ -27,6 +27,7 @@ header img {
 
 header .menu_Icon_left {
     left: 25px;
+    cursor: pointer;
 }
 
 header .menu_Icon_right {
