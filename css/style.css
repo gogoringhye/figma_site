@@ -78,8 +78,8 @@ header .menu_Icon_right {
 [class^="sign"] .main-tt {
     color: #fff;
     font-size: 32px;
-    line-height: 52px;
-    margin-bottom: 120px;
+    line-height: 20px;
+    margin-bottom: 40px;
 }
 
 [class^="sign"] form label {
